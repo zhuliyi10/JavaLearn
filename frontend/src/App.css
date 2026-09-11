@@ -1,0 +1,166 @@
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 32px 16px;
+}
+
+h1 {
+  font-size: 24px;
+  margin: 0 0 4px;
+}
+
+h2 {
+  font-size: 16px;
+  margin: 0 0 16px;
+}
+
+.subtitle {
+  color: #656d76;
+  font-size: 14px;
+  margin: 0 0 24px;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #d8dee4;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.card.narrow {
+  max-width: 360px;
+}
+
+form label {
+  display: block;
+  font-size: 13px;
+  color: #656d76;
+  margin-bottom: 12px;
+}
+
+input {
+  display: block;
+  width: 100%;
+  margin-top: 4px;
+  padding: 8px 12px;
+  border: 1px solid #d8dee4;
+  border-radius: 6px;
+  font-size: 14px;
+  font-family: inherit;
+}
+
+input:focus {
+  outline: 2px solid #0969da;
+  outline-offset: -1px;
+  border-color: transparent;
+}
+
+.row {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.row input {
+  flex: 1;
+  min-width: 150px;
+  margin-top: 0;
+}
+
+button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  background: #1f883d;
+  color: #fff;
+  font-size: 14px;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1a7f37;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
+button.secondary {
+  background: #f6f8fa;
+  color: #1f2328;
+  border: 1px solid #d8dee4;
+}
+
+button.secondary:hover {
+  background: #eef1f4;
+}
+
+button.danger {
+  background: #cf222e;
+}
+
+button.danger:hover {
+  background: #a40e26;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 10px 8px;
+  border-bottom: 1px solid #eaeef2;
+}
+
+th {
+  color: #656d76;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+.msg {
+  padding: 10px 12px;
+  border-radius: 6px;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.msg.error {
+  background: #ffebe9;
+  border: 1px solid #ff818266;
+  color: #a40e26;
+}
+
+.user-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  color: #656d76;
+  margin-bottom: 16px;
+}
+
+.hint {
+  font-size: 13px;
+  color: #656d76;
+  margin-top: 12px;
+}
+
+.empty {
+  color: #656d76;
+  font-size: 14px;
+  padding: 20px 0;
+  text-align: center;
+}
